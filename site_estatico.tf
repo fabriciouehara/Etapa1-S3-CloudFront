@@ -1,6 +1,6 @@
 #Criação do bucket S3
 resource "aws_s3_bucket" "bucket-fabricio" {
-  bucket = "buckets3-terraform-fabricio"
+  bucket = "buckets3-terraform-fabricio2"
   acl    = "public-read"
 
   website {
